@@ -1,0 +1,26 @@
+.flex {
+  display: flex;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-family: Roboto;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: Roboto;
+}
+h3 {
+  font-family: Roboto;
+}
+h4 {
+  font-family: Roboto;
+}
+
+p {
+  font-family: Roboto;
+}

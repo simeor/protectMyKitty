@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 3px solid orange;
+  margin-bottom: 30px;
+}
+
+.linkContainer {
+  min-width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
