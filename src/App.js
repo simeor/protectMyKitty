@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./components/Home/Home";
-import Capture from "./components/Capture";
-import Demo from "./components/Demo";
+import Capture from "./components/Capture/Capture";
+import Demo from "./components/Demo/Demo";
 import Results from "./components/Results";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 

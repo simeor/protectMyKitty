@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className={style.wrapper}>
       <div className="flex">
         <img src={Logo} width={70} alt="logo" />
-        <h2 style={{ fontFamily: "Roboto" }}>Protect my kitty</h2>
+        <h2>Protect my kitty</h2>
       </div>
       <div className={style.linkContainer}>
         <p>Demo</p>

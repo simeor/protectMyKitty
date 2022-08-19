@@ -6,14 +6,11 @@ const Result = () => {
   const [imageUrl, setImageUrl] = useState("");
   const [updatedAt, setUpdatedAt] = useState("");
 
-  const fetchImage = async () => {
-    const image = await getImageUrl();
-    setImageUrl(image.detection.imageString);
-    setUpdatedAt(image.detection.updatedAt);
-  };
-
   useEffect(() => {
-    fetchImage();
+    getImageUrl().then((data) => {
+      setImageUrl(data.detection.imageString);
+      setUpdatedAt(data.detection.updatedAt);
+    });
   }, []);
 
   if (!updatedAt) {
@@ -28,7 +25,7 @@ const Result = () => {
         src={imageUrl}
         width={600}
         height={500}
-        style={{ objectFit: "cover" }}
+        className="cover"
       />
     </div>
   );

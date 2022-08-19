@@ -24,3 +24,11 @@ h4 {
 p {
   font-family: Roboto;
 }
+
+.cover {
+  object-fit: cover;
+}
+
+.absolute {
+  position: absolute;
+}
